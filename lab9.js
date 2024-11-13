@@ -24,3 +24,7 @@ console.log("Name: "+student1.name);
 console.log("Age: "+student1.age);
 console.log("Grade: "+student1.grade);
 console.log("School: "+student1.school);
+
+//update age 
+student1.age = 19;
+console.log("Update age: "+student1.age);
