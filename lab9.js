@@ -39,3 +39,29 @@ console.log(parseBook);
 //convert book into JSON string 
 let convertBook = JSON.stringify(parseBook);
 console.log(convertBook);
+
+//Task3
+//create array
+const array1 = [1,2,3];
+const array2 = [4,5,6];
+//combine array 1 and 2
+const combinedArray = [...array1, ...array2];
+
+console.log(combinedArray);
+
+//create object person1
+let person1 = {
+    Firstname: "Harry",
+    LastName: "Potter",
+    Age: 12
+}
+//create object person2 with update age
+let person2 ={
+    ...person1,
+    Age: 15
+}
+
+console.log(person1);
+console.log(person2);
+
+
