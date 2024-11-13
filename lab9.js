@@ -12,4 +12,11 @@ let student = {
     }
 }
 
+//call method
 student.greet();
+
+//console.log each property of the student object
+console.log("Name: "+student.name);
+console.log("Age: "+student.age);
+console.log("Grade: "+student.grade);
+console.log("School: "+student.school);
