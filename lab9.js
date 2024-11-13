@@ -1,14 +1,15 @@
+//task 1 
+//create object : student
 let student = {
     name: "Mark",
     age: 15,
     grade: 86,
-    school: "Riverdale"
-}
+    school: "Riverdale",
 
-let greet = () => {
-    console.log("Hello " + student.name);
+    //create greet method
+    greet(){
+        console.log("Hello " + student.name);
+    }
 }
-
-student.greet = greet;
 
 student.greet();
