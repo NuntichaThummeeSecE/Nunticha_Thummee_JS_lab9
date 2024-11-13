@@ -61,4 +61,29 @@ console.log(person1);
 console.log(person2);
 
 //Task4
-//create 
+//create object calculator with methods
+let calculator = {
+    //add method
+    add: function(a,b){
+        return a + b;
+    },
+    //subtract method
+    subtract: function(a,b){
+        return a - b;
+    },
+    //multiply method
+    multiply: function(a,b){
+        return a*b;
+    },
+    //divide method
+    divide: function(a,b){
+        return a/b;
+    }
+}
+
+//display the result
+let numbers = [100,10];
+console.log(calculator.add(...numbers));
+console.log(calculator.subtract(...numbers));
+console.log(calculator.multiply(...numbers));
+console.log(calculator.divide(...numbers));
