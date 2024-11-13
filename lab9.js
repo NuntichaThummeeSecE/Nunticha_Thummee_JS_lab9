@@ -1,5 +1,4 @@
 //task 1 
-
 //create object student
 let student = {
     name: "Mark",
