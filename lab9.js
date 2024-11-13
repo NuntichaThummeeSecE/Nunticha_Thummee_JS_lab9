@@ -28,3 +28,14 @@ console.log("School: "+student1.school);
 //update age 
 student1.age = 19;
 console.log("Update age: "+student1.age);
+
+//Task2
+//create JSON string 
+let book = `{"title" : "Harry Potter and the Sorcerer's Stone", "author" : "J. K. Rowling", "year" : "1998", "genre" : "fantasy"}`;
+// parse JSON string into a JS object
+let parseBook = JSON.parse(book);
+console.log(parseBook);
+
+//convert book into JSON string 
+let convertBook = JSON.stringify(parseBook);
+console.log(convertBook);
