@@ -1,6 +1,6 @@
 //task 1 
 //create class : student
-class student {
+/*class student {
     constructor(name, age, grade, school){
         this.name = name;
         this.age = age;
@@ -12,22 +12,33 @@ class student {
     greet(){
         console.log("Hello " + this.name);
     }
+}*/
+//create object student
+let student = {
+    name: "Mark",
+    age: 15,
+    grade: 86,
+    school: "Riverdale",
+
+    greet: function () {
+        console.log("Hello " + this.name);
+    }
 }
 
-let student1 = new student ("Mark", 15, 86, "Riverdale");
+//let student1 = new student("Mark", 15, 86, "Riverdale");//
 
 //call method
-student1.greet();
+student.greet();
 
 //console.log each property of the student object
-console.log("Name: "+student1.name);
-console.log("Age: "+student1.age);
-console.log("Grade: "+student1.grade);
-console.log("School: "+student1.school);
+console.log("Name: " + student.name);
+console.log("Age: " + student.age);
+console.log("Grade: " + student.grade);
+console.log("School: " + student.school);
 
 //update age 
-student1.age = 19;
-console.log("Update age: "+student1.age);
+student.age = 19;
+console.log("Update age: " + student.age);
 
 //Task2
 //create JSON string 
@@ -42,8 +53,8 @@ console.log(convertBook);
 
 //Task3
 //create array
-const array1 = [1,2,3];
-const array2 = [4,5,6];
+const array1 = [1, 2, 3];
+const array2 = [4, 5, 6];
 //combine array 1 and 2
 const combinedArray = [...array1, ...array2];
 
@@ -56,7 +67,7 @@ let person1 = {
     Age: 12
 }
 //create object person2 with update age
-let person2 ={
+let person2 = {
     ...person1,
     Age: 15
 }
@@ -64,4 +75,5 @@ let person2 ={
 console.log(person1);
 console.log(person2);
 
-
+//Task4
+//create 
